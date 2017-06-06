@@ -3,7 +3,7 @@ rvm:
 - 2.2.0
 sudo: false
 script: bundle exec rake deploy
-before-install:
+before_install:
   - git config --global user.name "Travis CI"
   - git config --global user.email "user@example.com"
 env:
